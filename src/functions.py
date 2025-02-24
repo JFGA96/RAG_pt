@@ -6,9 +6,11 @@ import numpy as np
 from langgraph.graph import END, StateGraph
 from prompt import route_chain,rag_chain
 from models_llm import llm_embed_small
+import os
+
 qdrant_client = QdrantClient(
-    url="https://0ff2fdbb-b73d-4afb-a722-b0ccf5a75cc5.eu-west-2-0.aws.cloud.qdrant.io", 
-    api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.-Sum4wHCItZwbIel2L3oN8GMkfihHwRqPhAvM_QeXOk",
+    url=os.getenv('url'), 
+    api_key=os.getenv('apikey'),
 )
 def get_chunk_by_index(vectorstore, target_index: int) -> Document:
     """
