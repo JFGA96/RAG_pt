@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
+  <diagram name="Página-1" id="djVt8h2rkGTka7wYqlxK">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-1" target="zHeBslHUhrJYQ3Cwp1fI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-2" target="zHeBslHUhrJYQ3Cwp1fI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-2" value="Consulta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-4" target="zHeBslHUhrJYQ3Cwp1fI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-10" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zHeBslHUhrJYQ3Cwp1fI-8">
+          <mxGeometry x="-0.1446" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-12" value="SI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-4" target="zHeBslHUhrJYQ3Cwp1fI-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-4" value="rou&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ter&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="135" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-6" value="Consulta tiene que ver con tematica del documento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="315" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-7" value="Respuesta definida" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-11" target="zHeBslHUhrJYQ3Cwp1fI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-11" value="Vectorstore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-14" value="Similarity search, entre la pregunta y los chuncks almacenados" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-15" value="Devuelve un único documento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-16" target="zHeBslHUhrJYQ3Cwp1fI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-16" value="Get context" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-18" value="Buscar index en Vectorstore y devolver el chunk anterior y posterior al seleccionado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="60" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-19" value="Devuelve un contexto mucho mas alimentado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zHeBslHUhrJYQ3Cwp1fI-20" target="zHeBslHUhrJYQ3Cwp1fI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-20" value="Generate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="745" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-22" value="Genera las respuestas basado únicamente en los documentos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zHeBslHUhrJYQ3Cwp1fI-23" value="Answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="155" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
